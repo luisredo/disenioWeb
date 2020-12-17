@@ -1,0 +1,53 @@
+header {
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+}
+
+article {
+    padding: 100px 160px;
+}
+body {
+    background: url("./img/beautiful-purple-brick-wall-for-background.jpg") no-repeat right top;
+
+    min-width: 300px;
+    max-width: 700px;
+    margin:25px;
+    margin: auto;
+    background-color: rgb(43, 231, 26);
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #555;
+    color: white;
+    text-align: center;
+}
+h1  {
+color:red;
+text-align: center;
+}
+
+.contendor{
+    border: dotted;
+    width: 200px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+ 
+.elements{
+    border-style: dashed;
+    background-color: rgb(255, 196, 247);
+    color: #555;
+    text-align: center;
+    text-shadow: 0 0 3px #2600ff;
+}
+.foot{
+    color:white;
+    text-align: center;
+    padding: 5px 10px;
+    background-color: black;
+}
