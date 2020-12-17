@@ -1,33 +1,53 @@
 header {
     padding: 10px 16px;
-    background: #555;
-    color: #f1f1f1;
+    background: #f1f1f1;
+    color: #000000;
 }
-
+table{
+    width: 100%;
+}
 article {
-    padding: 100px 160px;
+    overflow:inherit;
+    position: absolute;
+    width: 35%;
+    right: 15%;
+}
+aside {
+    overflow:inherit;
+    position: absolute;
+    width: 10%;
+    left: auto;
+    height: 50%;
+    position: fixed;
 }
 body {
-    background: url("./img/beautiful-purple-brick-wall-for-background.jpg") no-repeat right top;
-
+    background-color: #555;
     min-width: 300px;
-    max-width: 700px;
-    margin:25px;
-    margin: auto;
-    background-color: rgb(43, 231, 26);
+    margin: 0 auto;
 }
 
 footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #555;
-    color: white;
+    background-color:#f1f1f1;
+    color:#000000;
     text-align: center;
+    position: fixed;
+    
+}
+li {
+    padding: 5px 5px;
+}
+.url {
+    color:white;
+    text-align: center;
+    padding: 5px 10px;
+    background-color: rgb(255, 255, 255);
+    max-width: 100px;
 }
 h1  {
-color:red;
+color:rgb(0, 0, 0);
 text-align: center;
 }
 
@@ -39,6 +59,8 @@ text-align: center;
 }
  
 .elements{
+    width: 80%;
+    min-width: 140px;
     border-style: dashed;
     background-color: rgb(255, 196, 247);
     color: #555;
@@ -50,4 +72,8 @@ text-align: center;
     text-align: center;
     padding: 5px 10px;
     background-color: black;
+}
+.titulo{
+    background-color: black;
+    color:#f1f1f1;
 }
