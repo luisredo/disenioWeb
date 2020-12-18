@@ -3,14 +3,9 @@ header {
     background: #f1f1f1;
     color: #000000;
 }
-table{
-    width: 100%;
-}
+
 article {
-    overflow:inherit;
-    position: absolute;
-    width: 35%;
-    right: 15%;
+
 }
 aside {
     overflow:inherit;
@@ -76,4 +71,57 @@ text-align: center;
 .titulo{
     background-color: black;
     color:#f1f1f1;
+}
+
+
+@media screen and (max-width: 600px) {
+    .izquierda{
+        padding: 5px;
+        float: left;
+        width: 100%;
+        text-align: justify;
+        word-wrap: word-break;
+        background-color: #000000;
+        min-width: 200px;
+    }
+
+    table{
+        width: 100%;
+    }
+    
+    .derecha{
+        float: right;
+        width: 100%;
+        word-wrap: word-break;
+    }
+}
+
+/* For Tablets */
+@media screen and (min-width: 600px){
+    .izquierda{
+        float: left;
+        width: 200px;
+        height:max-content;
+        text-align: justify;
+        word-wrap: word-break;
+        background-color: #000000;
+        min-width: 200px;
+    }
+    table{
+        width: 300px;
+    }
+    .img{
+        background-color: #f1f1f1;
+    }
+    .content{
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .derecha{
+        float: right;
+        width: 400px;
+        word-wrap: word-break;
+    }
 }
